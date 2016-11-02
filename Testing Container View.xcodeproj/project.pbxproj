@@ -12,6 +12,10 @@
 		728C36341DC2EEE200A72786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728C36321DC2EEE200A72786 /* Main.storyboard */; };
 		728C36361DC2EEE200A72786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728C36351DC2EEE200A72786 /* Assets.xcassets */; };
 		728C36391DC2EEE200A72786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728C36371DC2EEE200A72786 /* LaunchScreen.storyboard */; };
+		728C36421DC2FE4400A72786 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C36411DC2FE4400A72786 /* ContainerViewController.swift */; };
+		728C36441DC2FF7400A72786 /* EmptySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C36431DC2FF7400A72786 /* EmptySegue.swift */; };
+		728C36461DC3041F00A72786 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C36451DC3041F00A72786 /* FirstViewController.swift */; };
+		728C36481DC3042A00A72786 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C36471DC3042A00A72786 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		728C36351DC2EEE200A72786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		728C36381DC2EEE200A72786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		728C363A1DC2EEE200A72786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728C36411DC2FE4400A72786 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		728C36431DC2FF7400A72786 /* EmptySegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
+		728C36451DC3041F00A72786 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		728C36471DC3042A00A72786 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		728C362D1DC2EEE100A72786 /* Testing Container View */ = {
 			isa = PBXGroup;
 			children = (
+				728C36401DC2FA7900A72786 /* ContainerView */,
 				728C362E1DC2EEE100A72786 /* AppDelegate.swift */,
 				728C36301DC2EEE200A72786 /* ViewController.swift */,
+				728C36451DC3041F00A72786 /* FirstViewController.swift */,
+				728C36471DC3042A00A72786 /* SecondViewController.swift */,
 				728C36321DC2EEE200A72786 /* Main.storyboard */,
 				728C36351DC2EEE200A72786 /* Assets.xcassets */,
 				728C36371DC2EEE200A72786 /* LaunchScreen.storyboard */,
 				728C363A1DC2EEE200A72786 /* Info.plist */,
 			);
 			path = "Testing Container View";
+			sourceTree = "<group>";
+		};
+		728C36401DC2FA7900A72786 /* ContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				728C36431DC2FF7400A72786 /* EmptySegue.swift */,
+				728C36411DC2FE4400A72786 /* ContainerViewController.swift */,
+			);
+			name = ContainerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728C36481DC3042A00A72786 /* SecondViewController.swift in Sources */,
+				728C36461DC3041F00A72786 /* FirstViewController.swift in Sources */,
 				728C36311DC2EEE200A72786 /* ViewController.swift in Sources */,
+				728C36421DC2FE4400A72786 /* ContainerViewController.swift in Sources */,
 				728C362F1DC2EEE100A72786 /* AppDelegate.swift in Sources */,
+				728C36441DC2FF7400A72786 /* EmptySegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
